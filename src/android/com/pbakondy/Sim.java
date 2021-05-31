@@ -143,7 +143,7 @@ public class Sim extends CordovaPlugin {
 
       int callState = manager.getCallState();
       int dataActivity = manager.getDataActivity();
-      int networkType = manager.getNetworkType();
+      int networkType = manager.getDataNetworkType();
       int phoneType = manager.getPhoneType();
       int simState = manager.getSimState();
 
