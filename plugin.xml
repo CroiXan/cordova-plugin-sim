@@ -11,7 +11,7 @@
   <issue>https://github.com/pbakondy/cordova-plugin-sim/issues</issue>
 
   <engines>
-    <engine name="cordova" version=">=3.0.0"/>
+    <engine name="cordova" version=">=7.1.0"/>
   </engines>
 
   <js-module src="www/sim.js" name="Sim">
