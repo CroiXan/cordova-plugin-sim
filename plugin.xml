@@ -30,7 +30,7 @@
     <framework src="com.android.support:support-v4:+" />
 
     <config-file target="AndroidManifest.xml" parent="/*">
-      <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+      <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     </config-file>
 
     <source-file src="src/android/com/pbakondy/Sim.java" target-dir="src/com/pbakondy" />
